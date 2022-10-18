@@ -1,5 +1,4 @@
-// Generated using webpack-cli https://github.com/webpack/webpack-cli
-
+const webpack = require('webpack');
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
@@ -28,7 +27,10 @@ const config = {
         new HtmlWebpackPlugin({
             template: 'index.html',
         }),
-
+        new webpack.DefinePlugin({
+            'process.env.BEHAVIORS_PATH': JSON.stringify('/js/lazybehaviors/'),
+            'process.env.BEHAVIORS_EXTENSION': JSON.stringify('js')
+        })
         // Add your plugins here
         // Learn more about plugins from https://webpack.js.org/configuration/plugins/
     ],
