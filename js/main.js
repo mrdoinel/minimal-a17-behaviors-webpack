@@ -1,6 +1,5 @@
 // JS Behaviors
 import * as Behaviors from './behaviors'
-
 import { manageBehaviors } from '@area17/a17-behaviors'
 
 window.A17 = {}

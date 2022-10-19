@@ -10,7 +10,6 @@ const showAlert = createBehavior('showAlert',
     {
         init() {
             this.$btn = this.getChild('btn');
-            this.$iframe = this.getChild('iframe');
             this.$btn.addEventListener('click', this.alert);
 
             // Test alias and import of a behavior inside another behavior which is working with Vite
