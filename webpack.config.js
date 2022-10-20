@@ -10,7 +10,7 @@ const stylesHandler = 'style-loader';
 
 
 const config = {
-    entry: './js/main.js',
+    entry: ['./js/main.js'],
     output: {
         path: path.resolve(__dirname, 'dist'),
     },

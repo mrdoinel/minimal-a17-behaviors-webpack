@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "dependencies": {
-    "@area17/a17-behaviors": "^0.2.2",
+    "@area17/a17-behaviors": "^0.2.4",
     "@area17/a17-helpers": "^3.0.2"
   },
   "devDependencies": {
